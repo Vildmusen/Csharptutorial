@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/background.png");
+}
+
+h1{
+    font-size: 45px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h1, h2, p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #CFD7C7;
+}
+
+p{
+    font-family: Arial;
+    color: black;
+}
+
+button{
+    background-color: #A3C4BC;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+li img{
+    position: relative;
+}
+
+button:disabled{
+    background: grey;
+}
+
+.holder{
+    display: none;
+}
+
+#help-button{
+    float: left;
+}
+
+#jump-button{
+    float: left;
+}
+
+#left-button{
+    float: left;
+    margin-right: 94px;
+}
+
+#right-button{
+    float: right;
+}
+
+#title{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #CFD7C7;
+}
+
+.solution{
+    display: none;
+}
+
+.holder{
+    padding: 20px;
+}
+
+.step{
+    padding: 15px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -307.5px;
+    background: #395C6B;
+}

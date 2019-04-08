@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>C# workshop - Snake!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div class="step">
+                <div id="title">
+                    <h1>Snake i C#</h1>
+                </div>
+
+                <div class="holder" id="0">
+                    <div class="title"><h2>Välkommen!</h2></div>
+                    <div class="instructions">
+                        <p>Hej och välkommen till den här uppgiften! Du kommer via den här sidan bli guidad till hur man skapar ett spel i visual studio med hjälp av winforms! Tryck på nästa för att gå vidare.</p>                        
+                    </div>
+                    <div class="solution" id="sol0"><p>hihihi</p></div>
+                </div>
+
+                <div class="holder" id="1">
+                    <div class="title"><h2>Steg 1: Nytt projekt</h2></div>
+                    <div class="instructions">
+                        
+                        <ul>
+                            <li> <p>Gör ett nytt projekt i Visual studio: Välj "Windows Forms App (.NET Framework)" </p></li>
+                            <li> <p>Dubbelklicka på "form1" som öppnas så kommer ni till koden för den. Det första vi ska göra är att lägga till grafik så vi kan se våran orm.</p></li>
+                            <li> <p>Detta är inget ni har gjort tidigare, så ni får koden rakt av:</p><img src="img/step1.png" /></li>
+                            <li> <p>"InitializeComponent()" Står redan där, men lägg till "IGame game", som kommer vara vårt interface, och "Graphics Drawing"  och "Drawing = this.CreateGraphics()" som ska sköta grafiken </p></li>
+                        </ul>
+                        
+                    </div>
+                    <div class="solution" id="sol1"><p>ehhh ingen lösning här haha</p></div>
+                </div>
+
+                <div class="holder" id="2">
+                    <div class="title"><h2>Steg 2: Game Interface</h2></div>
+                    <div class="instructions">
+                            
+                        <ul>
+                            <li> <p>Skapa ett interface. (Project -> Add class, byt från klass till interface) Ge det namnet "iGame". </p></li>
+                            <li> <p>Ett interface kanske inte är 100% nödvändigt i det här fallet, men bra att fräscha upp minnet om. (Och om vi skulle vilja lägga till fler spel senare!)</p></li>
+                            <li> <p>Låt det vara tomt som det är, vi kommer tillbaka senare när vi har mer koll på vad som behöver vara här!</li>    
+                        </ul>
+
+                    </div>
+                    <div class="solution" id="sol2"><p><img src="img/step2.png" /></p></div>
+                </div>
+
+                <div class="holder" id="3">
+                    <div class="title"><h2>Steg 3: Klassen Snake</h2></div>
+                    <div class="instructions">
+                            
+                        <ul>
+                            <li> <p>Skapa en klass (Project -> Add class) ge det namnet "Snake". </p></li>
+                            <li> <p>osv</p></li>
+                            <li> <p></li>    
+                        </ul>
+
+                    </div>
+                    <div class="solution" id="sol3"><p>Bild på hur klassen ska se ut</p></div>
+                </div>
+
+                <div id="left-button"><button onclick="Step(-1)" id="left">Prev step</button></div>
+                <div id="jump-button"><button onclick="jump()" id="left">Jump to</button></div>
+                <div id="help-button"><button onclick="showHelp()">Lösning</button></div>
+                <div id="right-button"><button onclick="Step(1)" id="right">Next step</button></div>
+            </div>            
+        </div> 
+    </body>
+    <script src="script.js"></script>
+</html>
